@@ -1,0 +1,44 @@
+h1 {
+    color: #8d0000;
+    font-size: 25px;
+    text-align: center;
+}
+header div h2 {
+    font-size: 20px;
+    text-align: center;
+}
+.cont-bebidas {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.bebidas {
+    padding: 16px;
+    text-align: center;
+}
+
+.bebidas h4 {
+    padding: 4px;
+    margin: -2px;
+    
+}
+.bebidas h5 {
+    padding: 4px;
+    margin: -2px
+}
+
+#img {
+    width: 200px;
+    height: 250px;
+}
+
+.carrito {
+    text-align: center;
+}
+
+/*  */
+@media screen and (max-width: 800px) {
+    #img {
+        width: 100px;
+        height: 150px;
+    }
+}
