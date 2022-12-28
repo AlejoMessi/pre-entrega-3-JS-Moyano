@@ -1,0 +1,11 @@
+Pre-Entrega Numero 3
+
+Moyano Alejo
+
+Mi proyecto trata de simular un carrito de compras de un pagina de bebidas, siguiendo el ejemplo del proyecto de desarrollo web que hice
+
+- se muestran los productos
+- se los puede agregar del carrito
+- los pinta en una seccion del carrito
+- tambien se los puede quitar del carrito
+- al final tiene el precio de cada producto y despues esta el total de la compra

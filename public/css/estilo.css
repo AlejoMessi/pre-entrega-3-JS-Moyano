@@ -6,7 +6,7 @@
   
   body {
     font-family: 'Roboto', sans-serif;
-    background-image: url(/public/images/fondo6.png); 
+    background-image: url(../images/fondo6.png); 
   }
   
   img {
