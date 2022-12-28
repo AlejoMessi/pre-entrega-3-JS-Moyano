@@ -5,7 +5,7 @@ const productos =
         nombre: "Fernet Branca",
         tipo: "Aperitivo",
         precio: 1200,
-        img: '/public/images/fernet750.jpg',
+        img: './public/images/fernet750.jpg',
         cantidad:1
     },
 
@@ -14,7 +14,7 @@ const productos =
         nombre: "Skyy",
         tipo: "Vodka",
         precio: 1500,
-        img: '/public/images/skyyfrutosrojos.jpg',
+        img: './public/images/skyyfrutosrojos.jpg',
         cantidad:1
     },
 
@@ -23,7 +23,7 @@ const productos =
         nombre: "Absolute",
         tipo: "Vodka",
         precio: 2000,
-        img: '/public/images/absolutee.png',
+        img: './public/images/absolutee.png',
         cantidad:1
     },
 
@@ -32,7 +32,7 @@ const productos =
         nombre: "Gancia",
         tipo: "Aperitivo",
         precio: 1000,
-        img: '/public/images/gancia.png',
+        img: './public/images/gancia.png',
         cantidad:1
     },
 
@@ -41,7 +41,7 @@ const productos =
         nombre: "Speed",
         tipo: "Energizantes",
         precio: 400,
-        img: '/public/images/speed.png',
+        img: './public/images/speed.png',
         cantidad:1
     },
 
@@ -50,7 +50,7 @@ const productos =
         nombre: "Monster",
         tipo: "Energizantes",
         precio: 600,
-        img: '/public/images/monster.png',
+        img: './public/images/monster.png',
         cantidad:1
     }
 ];
