@@ -1,11 +1,20 @@
+// crear carrito
 let carrito = [];
 
 const productoContenedor = document.getElementById('producto-contenedor');
 
+// agregar 
 productoContenedor.addEventListener('click', (e) => {
     if (e.target.classList.contains('agregar')) {
         validarProductoEnCarrito(e.target.id)
     }
+
+    // toast
+    Toastify ({
+        text: 'Agregado al carrito!',
+        duration: 3000,
+        position: 'center',
+    }).showToast()
 });
 
 const validarProductoEnCarrito = (productoId) => {
@@ -24,6 +33,7 @@ const validarProductoEnCarrito = (productoId) => {
     }
 };
 
+// pintar productos
 const pintarProductoCarrito = (producto) => {
     const contenedor = document.getElementById('carrito-contenedor');
     const div = document.createElement('div');
@@ -53,6 +63,7 @@ const pintarTotalesCarrito = (totalCantidad, totalCompra) => {
     precioTotal.innerText = totalCompra;
 };
 
+// eliminar productos
 const eliminarProductoEnCarrito = (productoId) => {
     const productoIndex = carrito.findIndex(producto => producto.id == productoId);
     carrito.splice(productoIndex, 1);

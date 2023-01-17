@@ -154,6 +154,19 @@
     outline: none;
   }
   
+  .modal-carrito #btn-finalizar-compra {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 100, 1);
+    border: 2px solid rgb(2, 75, 2);
+    transform: translateX(170px);
+    border-radius: 15px;
+  }
+
+  .modal-carrito #btn-finalizar-compra:hover {
+    background-color: rgb(4, 146, 4);
+  }
+
   .modal-carrito .producto-precio {
     padding-top: 10px;
   }

@@ -21,3 +21,21 @@ modalCarrito.addEventListener('click', (e) => {
         eliminarProductoEnCarrito(e.target.value);
     }
 })
+
+// finalizar compra
+const finalizarCompra = document.querySelector('#btn-finalizar-compra')
+
+finalizarCompra.addEventListener('click', () => {
+    // toast
+    Toastify ({
+        text: 'Compra relizada, Muchas gracias!',
+        duration: 3000,
+        position: 'center',
+    }).showToast()
+
+    // vaciar carrito
+    carrito.length = 0;
+    actualizarCarrito(carrito);
+    actualizarTotalesCarrito(carrito);
+    cerrarCarrito.click();
+})
